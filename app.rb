@@ -9,3 +9,7 @@ end
 get '/secret' do
   "Hello again"
 end
+
+get '/cat' do
+  erb(:index)
+end
